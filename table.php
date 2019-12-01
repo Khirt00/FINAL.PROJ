@@ -33,9 +33,9 @@ $result = $dbConn->query("SELECT * FROM users ORDER BY id DESC");
 	<table class="table" width='100%' border=0>
 
 	<tr bgcolor='#CCCCCC'>
-		<td>Name</td>
-		<td>Age</td>
-		<td>Email</td>
+		<td>Your Name</td>
+		<td>His/Her Name</td>
+		<td>Feeedback</td>
 		<td>Update</td>
 	</tr>
 	<?php 	
