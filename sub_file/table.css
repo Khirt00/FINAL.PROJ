@@ -1,0 +1,121 @@
+*{
+		font-family: 'Calistoga', cursive;
+	}
+	body{
+		overflow: hidden;
+		background-color: rgb(255,204,102);
+		padding: 0;
+		margin: 0;
+	}
+	.box1{
+		bottom: 0;
+		left: 0;
+		width: 20em;
+		height: 40em;
+		background-color: rgb(255,153,51);
+		position: absolute;
+	}
+	.box2{
+		bottom: 0;
+		right: 0;
+		width: 20em;
+		height: 40em;
+		background-color: rgb(255,153,51);
+		position: absolute;
+	}
+	.box3{
+		bottom: 0;
+		left: 0;
+		width: 10em;
+		height: 40em;
+		background-color: rgb(255,102,0);
+		position: absolute;
+		margin-left: 20em;
+		margin-bottom: -3.5em;
+		transform: skewY(34deg);
+	}
+	.box4{
+		bottom: 0;
+		right: 0;
+		width: 10em;
+		height: 40em;
+		background-color: rgb(255,102,0);
+		position: absolute;
+		margin-right: 20em;
+		margin-bottom: -3.5em;
+		transform: skewY(-34deg);
+	}
+	.mbox1{
+		width: 10em;
+		height: 20em;
+		bottom: 0;
+		margin-left: 25em;
+		background-color: rgb(255,153,51);
+		position: absolute;
+		left: 0;
+	}
+	.mbox2{
+		width: 5em;
+		height: 20em;
+		bottom: 0;
+		left: 0;
+		margin-left: 35em;
+		background-color: rgb(255,102,0);
+		position: absolute;
+		transform: skewY(50deg);
+		margin-bottom: -3em;
+	}
+	.mbox3{
+		width: 10em;
+		height: 20em;
+		right: 0;
+		bottom: 0;
+		margin-right: 25em;
+		background-color: rgb(255,153,51);
+		position: absolute;
+	}
+	.mbox4{
+		width: 5em;
+		height: 20em;
+		bottom: 0;
+		right: 0;
+		margin-right: 35em;
+		background-color: rgb(255,102,0);
+		position: absolute;
+		transform: skewY(-50deg);
+		margin-bottom: -3em;
+	}
+	.bbox1{
+		margin: auto;
+		width: 2em;
+		height: 50em;
+		background-color: rgb(255,102,0);
+	}
+	.bbox2{
+		position: absolute;
+		transform: skewY(-50deg);
+		left: 0;
+		margin-left: 35.4em;
+		margin-top: 3em;
+		width: 5em;
+		height: 50em;
+		background-color: rgb(255,153,51);
+	}
+	.bbox3{
+		position: absolute;
+		transform: skewY(50deg);
+		right: 0;
+		margin-right: 35.4em;
+		margin-top: 3em;
+		width: 5em;
+		height: 50em;
+		background-color: rgb(255,153,51);
+	}
+	.table{
+		position: absolute;
+		top: 0;
+		background-color: white;
+		opacity: .5;
+		margin-top: 2em;
+
+	}

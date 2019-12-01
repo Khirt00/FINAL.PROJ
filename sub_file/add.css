@@ -1,0 +1,78 @@
+	*{
+		font-family: 'Calistoga', cursive;
+	}
+	body{
+		overflow: hidden;
+		background-image: linear-gradient(to left,darkred,red)
+	}
+		.triangle-right1 {
+	width: 0;
+	height: 0;
+	border-top: 20em solid transparent;
+	border-left: 30em solid darkred;
+	border-bottom: 20em solid transparent;
+	position: absolute;
+}	
+.triangle-right2 {
+	width: 0;
+	height: 0;
+	border-top: 3em solid transparent;
+	border-left: 5em solid darkred;
+	border-bottom: 3em solid transparent;
+	position: absolute;
+	margin-top: 24em;
+	margin-left: 26em;
+}	
+.triangle-left1 {
+	width: 0;
+	height: 0;
+	border-top: 10em solid transparent;
+	border-right: 20em solid darkred;
+	border-bottom:	13em solid transparent;
+	position: absolute;
+	margin-left: 16em;
+}
+.triangle-left2 {
+	width: 0;
+	height: 0;
+	border-top: 13em solid transparent;
+	border-right: 20em solid darkred;
+	border-bottom:	13em solid transparent;
+	position: absolute;
+	margin-left: 5em;
+	margin-top: 24.5em;
+}
+.form{
+	position: absolute;
+}
+.name{
+	transform: rotate(34deg);
+	position: absolute;
+	padding: 10px 20px;
+	border: none;
+	margin-top: 8em;
+	margin-left: 4em;
+	font-size: 24px;
+}
+.age{
+	transform: rotate(34deg);
+	position: absolute;
+	padding: 10px 20px;
+	border: none;
+	margin-top: 11em;
+	margin-left: 15em;
+	font-size: 24px;
+}
+.fb{
+	position: absolute;
+	padding: 10px 20px;
+	border: none;
+	margin-left: 24.5em;
+	font-size: 24px;
+}
+.add{
+	position: absolute;
+	margin-top: 28em;
+	margin-left: 12em;
+	padding: 20px 50px;
+	font-size: 20px;
